@@ -1,0 +1,22 @@
+
+%btn{
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 7px 0;
+    font-weight: 700;
+    border: none;
+
+    &:hover{
+
+        text-transform: uppercase;
+        transition: 0.4s ease;
+        text-decoration: underline;
+        color: $Darkorange;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+}
